@@ -49,7 +49,7 @@ function App() {
         value={inputTask}
         onInput={(e) => setInputTask(e.target.value)}
       ></input>
-      <button onClick={addTask}>추가</button>
+      <button onClick={addTask}>추가1</button>
       <div style={{ display: "flex", flexDirection: "column" }}>
         {todoList.map((todo) => {
           // return (
